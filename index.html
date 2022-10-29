@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Time - Seconds since 1 Jan 1970</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="unixtime">
+            <div align="center" class="title">
+                <span><b>Unix Time</b></span>
+            </div>
+
+            <div align="center">
+                <span id="unixtimetext" class="odometer">0</span>
+            </div>
+
+            <div align="center" class="description">
+                <span>SECONDS SINCE 01 JANUARY 1970 (UTC)</span>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="epochalypse">
+            <div align="center" class="title">
+                <span>Y2K38</span>
+            </div>
+
+            <div align="center">
+                <span id="epochalypsetext" class="odometer">0</span>
+            </div>
+            
+            <div align="center" class="description">
+                <span>Seconds until 03:14:07 UTC on 19 January 2038</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="time.js"></script>
+</body>
+</html>

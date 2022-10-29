@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    background-color: #121212;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+}
+
+.title {
+    font-size: 3vw;
+}
+
+.description {
+    font-size: 1vw;
+}
+
+/* unixtime */
+#unixtimetext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 300px;
+
+    color: lightgreen;
+}
+
+/* y2k38 */
+#epochalypsetext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150px;
+
+    color: pink;
+}
